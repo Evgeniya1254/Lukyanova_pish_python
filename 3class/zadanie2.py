@@ -1,3 +1,4 @@
+#циклический сдвиг элементов внутри каждого из вложенных списков 
 def cyclic_shift(matrix, shift):
     result = []
     for row in matrix:

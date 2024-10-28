@@ -1,3 +1,4 @@
+#Развернуть элементы в каждом блоке по отдельности
 def reverse_blocks(array, block_size):
     for i in range(0, len(array), block_size):
         block = array[i:i+block_size]
